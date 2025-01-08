@@ -3,9 +3,9 @@ import Header from "./components/Header"
 
 function App() {
   return (
-    <div className="bg-sky-700">
+    <div>
       <Header />
-      <h1>Hello world!</h1>
+      <h1>Smello world!</h1>
     </div>
   )
 }
