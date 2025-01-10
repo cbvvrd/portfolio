@@ -5,7 +5,7 @@ function Header() {
     const [hiddenLinks, setHiddenLinks] = useState(true);
 
     function toggleMenu() {
-        hiddenLinks ? setHiddenLinks(false) : setHiddenLinks(true);
+        setHiddenLinks(prev => !prev);
     }
 
     return (
