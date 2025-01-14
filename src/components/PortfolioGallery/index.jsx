@@ -26,7 +26,7 @@ function PortfolioGallery() {
             {projects.map(project =>
                 <div key={project.id} className="bg-sky-100 py-3 px-5 border border-black rounded-sm">
                     <h3 className="p-1 text-xl font-bold">{project.name}</h3>
-                    <img src={project.img} alt={project.alt_text}/>
+                    <img src={project.img} alt={project.alt_text} onClick={() => {toggleModal(); setProject_id(project.id)}}/>
                     <div className="flex justify-between p-2">
                         <button onClick={() => {toggleModal(); setProject_id(project.id)}} className="bg-black text-white border border-black px-2 rounded">Info</button>
                         <a href={project.site_link} target="_blank" className="underline underline-offset-4">Live site</a>
