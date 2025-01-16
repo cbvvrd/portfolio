@@ -8,7 +8,7 @@ import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col md:mx-28">
       <Header />
       <Introduction />
       <About />
