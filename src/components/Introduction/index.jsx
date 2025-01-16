@@ -3,7 +3,7 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 function Introduction() {
     return (
-        <div className="bg-gradient-to-b from-green-400 to-teal-300 pt-10">
+        <div className="bg-gradient-to-b from-green-400 via-teal-400 to-teal-300 pt-10">
             <div className="flex flex-col justify-evenly items-center gap-3 m-8 font-questrial md:flex-row">
                 <img src="images/me.jpg" alt="A picture of Charlie with a city backdrop" className="border-2 border-black rounded-md w-56"/>
                 <div className="flex flex-col items-center gap-5">

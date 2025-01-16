@@ -24,7 +24,7 @@ function PortfolioGallery() {
     return (
         <div className="flex flex-col m-auto mb-6 gap-5">
             {projects.map(project =>
-                <div key={project.id} className="bg-gradient-to-b from-green-400 to-teal-300 py-3 px-5 border border-black rounded-sm">
+                <div key={project.id} className="bg-gradient-to-b from-green-400 to-teal-300 py-3 px-5 border border-black rounded-lg">
                     <h3 className="p-1 text-xl font-bold">{project.name}</h3>
                     <img src={project.img} alt={project.alt_text} onClick={() => {toggleModal(); setProject_id(project.id)}} className="border border-black rounded-sm" />
                     <div className="flex justify-between p-2">

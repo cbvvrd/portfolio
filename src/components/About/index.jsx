@@ -6,7 +6,8 @@ function About() {
             <h2 className="bg-black text-white text-2xl text-center p-3">About me:</h2>
             <div className="text-center p-3 flex flex-col gap-3">
                 <p>I'm a software developer currently focusing on full-stack web applications.</p>
-                <p>I'm eager to keep improving my knowledge and learn new technologies, which is partly what attracted me to this field in the first place.</p>
+                <p>As somebody who enjoys solving puzzles and is keen to always be learning new things, I have been interested in this field for some time.</p>
+                {/* <p>I'm eager to keep improving my knowledge and learn new technologies, which is partly what attracted me to this field in the first place.</p> */}
                 <p>In December 2024 I completed a software development course with iO Academy. This gave me valuable experience working as part of a team and collaborating on projects with Git. </p>
                 <p>Currently I'm building a web page for a client who is a  self-employed contracter, as a way to reinforce my skills and use them in a real-world situation.</p>
             <div>
@@ -25,7 +26,7 @@ function About() {
                         <img src="images/php.png" className="h-5 self-center"/>
                     </li>      
                     <li className="flex gap-1 justify-center">MySQL
-                        <img src="images/mysql.png" className="h-6 self-center"/>
+                        <img src="images/mysql.png" className="h-6"/>
                     </li>
                 </ul>
             </div>
