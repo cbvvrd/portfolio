@@ -12,7 +12,7 @@ function Header() {
     }
 
     return (
-        <header className="bg-white p-2 border-b border-black font-questrial fixed top-0 left-0 right-0">
+        <header className="bg-white p-2 border-b border-black font-questrial flex-nowrap fixed top-0 left-0 right-0">
             <div className="flex gap-4 px-4 items-center">
                 <FontAwesomeIcon icon={faBars} onClick={toggleMenu} className={hiddenLinks ? "text-xl md:text-2xl" : "rotate-90 text-xl md:text-2xl"}/>
                 <h1 className="text-lg font-semibold text-center md:text-2xl">Charlie Bird - Software Developer</h1>
