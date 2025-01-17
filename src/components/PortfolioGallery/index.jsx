@@ -22,7 +22,7 @@ function PortfolioGallery() {
     }
 
     return (
-        <div className="flex flex-col m-auto mb-6 gap-5">
+        <div className="flex flex-col m-auto mb-6 gap-5 md:flex-row md:gap-8">
             {projects.map(project =>
                 <div key={project.id} className="bg-gradient-to-b from-green-400 to-teal-300 py-3 px-5 border border-black rounded-lg">
                     <h3 className="p-1 text-xl font-bold">{project.name}</h3>

@@ -4,8 +4,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
     return(
-        <div id="contact" className="flex flex-col justify-evenly items-center gap-5 mx-12 my-5 pt-5 font-questrial">
-            <div className="flex flex-col justify-evenly items-center gap-5">
+        <div id="contact" className="flex flex-col justify-evenly items-center gap-5 mx-12 my-5 pt-5 font-questrial md:py-8 md:text-lg md:mx-28">
+            <div className="flex flex-col justify-evenly items-center gap-5 ">
                 <h2 className="bg-black text-white text-2xl text-center p-3">Contact:</h2>
                 <p className="text-center">If you like what you see or have any questions please feel free to contact me. I can be reached using any of the below methods.</p>
             </div>
