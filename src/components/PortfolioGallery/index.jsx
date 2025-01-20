@@ -28,9 +28,9 @@ function PortfolioGallery() {
                     <h3 className="p-1 text-xl font-bold">{project.name}</h3>
                     <img src={project.img} alt={project.alt_text} onClick={() => {toggleModal(); setProject_id(project.id)}} className="border border-black rounded-sm" />
                     <div className="flex justify-between p-2">
-                        <button onClick={() => {toggleModal(); setProject_id(project.id)}} className="bg-black text-white border border-black px-2 rounded">More info</button>
-                        <a href={project.site_link} target="_blank" className="underline underline-offset-4">Live site</a>
-                        <a href={project.github_link} target="_blank" className="underline underline-offset-4">Github <FontAwesomeIcon icon={faGithub} /></a>
+                        <button onClick={() => {toggleModal(); setProject_id(project.id)}} className="bg-black text-white border border-black px-2 rounded hover:bg-white hover:text-black duration-100">More info</button>
+                        <a href={project.site_link} target="_blank" className="underline underline-offset-4 hover:font-semibold hover:underline-offset-8 duration-100">Live site</a>
+                        <a href={project.github_link} target="_blank" className="underline underline-offset-4 hover:font-semibold hover:underline-offset-8 duration-100">Github <FontAwesomeIcon icon={faGithub} /></a>
                     </div>
                 </div>
             )}

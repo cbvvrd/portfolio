@@ -9,10 +9,10 @@ function Contact() {
                 <h2 className="bg-black text-white text-2xl text-center p-3">Contact:</h2>
                 <p className="text-center">If you like what you see or have any questions please feel free to contact me. I can be reached using any of the below methods.</p>
             </div>
-            <div className="flex flex-col gap-2 underline underline-offset-4">
-                <a href="#">Email @ <FontAwesomeIcon icon={faEnvelope}/></a>
-                <a href="https://www.linkedin.com/in/charlie-bird-894388338/" target="_blank">Linkedin: <FontAwesomeIcon icon={faLinkedin}/></a>
-                <a href="https://github.com/cbvvrd" target="_blank">Github: <FontAwesomeIcon icon={faGithub} /></a>
+            <div className="flex flex-col gap-2">
+                <a href="mailto:cbird.devs@gmail.com" className="underline underline-offset-4 hover:font-semibold hover:underline-offset-8 duration-100">Email @ <FontAwesomeIcon icon={faEnvelope}/></a>
+                <a href="https://www.linkedin.com/in/charlie-bird-894388338/" target="_blank" className="underline underline-offset-4 hover:font-semibold hover:underline-offset-8 duration-100">Linkedin: <FontAwesomeIcon icon={faLinkedin}/></a>
+                <a href="https://github.com/cbvvrd" target="_blank" className="underline underline-offset-4 hover:font-semibold hover:underline-offset-8 duration-100">Github: <FontAwesomeIcon icon={faGithub} /></a>
             </div>
             <span className="text-3xl font-marker py-2">Get in touch!</span>
         </div>

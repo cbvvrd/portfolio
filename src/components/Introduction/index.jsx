@@ -12,7 +12,7 @@ function Introduction() {
                     <p>I'm Charlie, a full stack developer. My current specialisations are in React, Tailwind, Laravel and MySQL. I'm open to work and looking for dev positions in the South West.</p>
                     </div>
                 </div>
-                <a href="#about" className="text-2xl font-marker md:text-3xl">See More <FontAwesomeIcon icon={faArrowDown} size="lg"/> </a>
+                <a href="#about" className="text-2xl font-marker hover:text-white duration-200 md:text-3xl">See More <FontAwesomeIcon icon={faArrowDown} size="lg"/> </a>
             </div>
             
         </div>

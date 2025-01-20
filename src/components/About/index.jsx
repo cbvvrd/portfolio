@@ -2,7 +2,7 @@
 
 function About() {
     return (
-        <div id="about" className="flex flex-col justify-evenly items-center gap-3 mx-12 pb-12 border-b py-5 scroll-mt-20 border-black font-questrial md:mx-28 md:gap-4">
+        <div id="about" className="flex flex-col justify-evenly items-center gap-3 mx-12 pt-5 pb-12 border-b scroll-mt-20 border-black font-questrial md:mx-28 md:gap-4">
             <h2 className="bg-black text-white text-2xl text-center p-3">About me:</h2>
             <div className="text-center flex flex-col gap-3 items-center justify-center md:flex-row md:text-lg md:gap-8">
                 <div className="flex flex-col gap-3 md:text-left pt-8 md:w-2/3">
