@@ -9,7 +9,7 @@ function Introduction() {
                 <div className="flex flex-col items-center gap-5 md:flex-row">
                     <span className="text-3xl font-marker md:text-4xl md:self-start">Hi!</span>
                     <div className="bg-black text-white text-lg text-center p-3 md:text-xl md:w-96">
-                    <p>I'm Charlie, a full stack developer. My current specialisations are in React, Tailwind, Laravel and MySQL. I'm open to work and looking for dev positions in the South West.</p>
+                    <p>I'm Charlie, a full stack web developer. My current specialisations are in React, Tailwind, Laravel and MySQL. I'm open to work and looking for dev positions in the South West.</p>
                     </div>
                 </div>
                 <a href="#about" className="text-2xl font-marker hover:text-white duration-200 md:text-3xl">See More <FontAwesomeIcon icon={faArrowDown} size="lg"/> </a>
