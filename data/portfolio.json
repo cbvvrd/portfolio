@@ -2,16 +2,18 @@
     "projects": [
         {   
             "id": 1,
-            "name": "Email Client Frontend - React",                                
-            "img": "images/email-client-2.png",
-            "alt_text": "Screenshot of email client webpage",
-            "info": "The goal for this project was to create a responsive front end for an email client based on an existing API. This was built using React. I worked on the page for composing the a new email & helped oversee the merging of various branches to ensure all of the components work together successfully.",
-            "site_link": "https://2024-team-dragon-email-client.dev.io-academy.uk/",
-            "github_link": "https://github.com/iO-Academy/2024-sept-team-dragon-email-fe"
+            "name": "Engineering Website", 
+            "techs": "React",                               
+            "img": "images/xact-dev.png",
+            "alt_text": "Screenshot of engineering site webpage",
+            "info": "I was asked by a self-employed engineer to build a website for their services, to show to their potential clients. This was built using React & Tailwind to a rough spec from the client. Currently the majority of the info is placeholder, to be updated when the client has decided what content they would like.",
+            "site_link": "https://cbvvrd.github.io/xact-dev/",
+            "github_link": "https://github.com/cbvvrd/xact-dev"
         } ,
         {   
             "id": 2,
-            "name": "Project Management App - PHP",
+            "name": "Project Management App",
+            "techs": "PHP",
             "img": "images/project-manager-1.png",
             "alt_text": "Screenshot of project management webpage",
             "info": "This is a project management page to track the deadline & priority of tasks. My team & I used PHP to connect the pre-existing API and front end. I worked on the service that handles the deadline dates, and did various unit tests.",
@@ -20,12 +22,23 @@
         } ,
         {   
             "id": 3,
-            "name": "Hotel Booking API - Laravel",
+            "name": "Hotel Booking API",
+            "techs": "Laravel",
             "img": "images/hotel-booking-1.png",
             "alt_text": "Screenshot of hotel booking webpage",
             "info": "The aim for this team project was to build the API for a hotel booking system. This was written in Laravel using object-oriented programming. I worked on various GET and POST routes, and wrote unit tests to check that the routes worked correctly.",
             "site_link": "https://2024-rainfrogs-hotel-fe.dev.io-academy.uk/",
             "github_link": "https://github.com/iO-Academy/2024-sept-rain-frogs-hotel-api"
-        }
+        } ,
+        {   
+            "id": 4,
+            "name": "Email Client Frontend",
+            "techs": "React",                                
+            "img": "images/email-client-2.png",
+            "alt_text": "Screenshot of email client webpage",
+            "info": "The goal for this project was to create a responsive front end for an email client based on an existing API. This was built using React. I worked on the page for composing the a new email & helped oversee the merging of various branches to ensure all of the components work together successfully.",
+            "site_link": "https://2024-team-dragon-email-client.dev.io-academy.uk/",
+            "github_link": "https://github.com/iO-Academy/2024-sept-team-dragon-email-fe"
+        } 
     ]
 }
